@@ -1,0 +1,28 @@
+{
+  "name": "members-statistic",
+  "version": "1.0.0",
+  "description": "the members statistics about the small routine",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "author": "cbinbin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "jssha": "^2.3.0",
+    "leancloud-realtime": "^3.4.1",
+    "leancloud-storage": "^2.4.0",
+    "leanengine": "^2.0.3",
+    "urllib": "^2.22.0"
+  },
+  "engines": {
+    "node": "6.x"
+  }
+}
